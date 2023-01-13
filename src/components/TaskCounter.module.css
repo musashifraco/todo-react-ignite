@@ -1,0 +1,46 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 1.1875rem;
+}
+
+.containerTasksCreated p {
+  display: flex;
+  gap: 0.5rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.0687rem;
+  color: var(--blue);
+}
+
+.containerTasksCreated p span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.1875rem;
+  width: 1.5rem;
+  border-radius: 999px;
+  background: var(--gray-400);
+  color: var(--gray-200);
+}
+
+.containerTasksCompleted p {
+  display: flex;
+  gap: 0.5rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.0687rem;
+  color: var(--purple);
+}
+
+.containerTasksCompleted p span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.1875rem;
+  padding: 0.5rem;
+  border-radius: 999px;
+  background: var(--gray-400);
+  color: var(--gray-200);
+}

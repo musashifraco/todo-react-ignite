@@ -1,0 +1,117 @@
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 4.5rem;
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: var(--gray-400);
+  color: var(--gray-100);
+}
+
+.list label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list label input[type="checkbox"]:checked + p {
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
+
+.list label p {
+  display: flex;
+  align-items: center;
+  margin-left: 1.33rem;
+}
+
+input[type="checkbox"]:not(:checked) {
+  appearance: none;
+  background-color: var(--gray-400);
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.091rem;
+  height: 1.091rem;
+  border: 1px solid var(--blue);
+  border-radius: 14px;
+  transform: translateY(-0.075em);
+}
+
+input[type="checkbox"]:not(:checked):hover {
+  appearance: none;
+  background-color: var(--blue-dark);
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.091rem;
+  height: 1.091rem;
+  border: 1px solid var(--blue);
+  border-radius: 14px;
+  transform: translateY(-0.075em);
+}
+
+input[type="checkbox"]:checked {
+  appearance: none;
+  background-color: var(--purple-dark);
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.091rem;
+  height: 1.091rem;
+  border: 1px solid var(--purple-dark);
+  border-radius: 14px;
+  transform: translateY(-0.075em);
+}
+
+input[type="checkbox"]:checked:hover {
+  appearance: none;
+  background-color: var(--purple);
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.091rem;
+  height: 1.091rem;
+  border: 1px solid var(--purple);
+  border-radius: 14px;
+  transform: translateY(-0.075em);
+}
+
+input[type="checkbox"]:checked:after {
+  content: "";
+  display: block;
+  width: 4.69px;
+  height: 7.31px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  left: 30%;
+  top: 12%;
+  bottom: 30.33%;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 2rem;
+  background-color: transparent;
+  border: none;
+}
+
+button:hover {
+  background-color: var(--danger);
+  border-radius: 4px;
+}
+
+.list button img {
+  height: 1.2rem;
+  width: 1.2rem;
+}

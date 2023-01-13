@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 19.54vh;
+  background: var(--gray-700);
+  font-weight: 900;
+  font-size: 2rem;
+  color: var(--blue);
+}
+
+.header img {
+  height: 2rem;
+}
+strong {
+  color: var(--purple-dark);
+}

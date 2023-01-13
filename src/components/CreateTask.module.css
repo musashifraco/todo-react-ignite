@@ -1,0 +1,69 @@
+.taskInputContainer {
+  position: relative;
+  top: -27px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.taskInputContainer textarea {
+  flex: 1;
+  height: 3.375rem;
+  resize: none;
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  background: var(--gray-500);
+  padding: 16px;
+  color: var(--gray-300);
+  overflow: hidden;
+}
+
+.taskInputContainer textarea:focus {
+  color: var(--gray-100);
+}
+
+.taskInputContainer button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  height: 3.25rem;
+  width: 5.625rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--blue-dark);
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.225rem;
+  color: var(--gray-100);
+  transition: 0.2s;
+}
+
+.taskInputContainer button:hover {
+  background: var(--blue);
+  border-radius: 8px;
+}
+
+/* task board styles */
+
+.taskBoardContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.taskBoardContainer header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 1.1875rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 1.5rem;
+  color: aliceblue;
+}
